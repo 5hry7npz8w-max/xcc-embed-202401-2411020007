@@ -1,0 +1,24 @@
+# ========== STM32CubeMX 临时文件 ==========
+*.ioc.bak
+*.ioc~
+.MX/
+mxbackup/
+
+# ========== Keil MDK-ARM ==========
+*.uvgui*
+*.axf
+*.o
+*.d
+*.crf
+*.dep
+*.tra
+*.lnp
+*.htm
+*.map
+Debug/
+build/
+RTE/
+
+# 【按需选择】固件，不想提交hex/elf就放开下面两行
+# *.hex
+# *.elf
